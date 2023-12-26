@@ -1,0 +1,284 @@
+.contVenta{
+
+    width: 80%;
+    height: 100%;
+    
+    top: 0;
+    left: 0;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rowVenta{
+
+    display: flex;
+    grid-gap: 0px;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: center;
+    margin-left:220px;
+    background-color:rgb(227, 227, 227);
+    border-radius: 10px;
+   
+
+
+
+
+}
+.col-lg-6{
+
+    display: flex;
+    flex-direction: row;
+
+}
+.col-sm-2 {
+    flex: 1;
+}
+
+.col-sm-2 {
+    flex: 1;
+}
+h2 , h3{
+
+font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+
+.articulo{
+    
+    display: grid;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    flex-wrap:nowrap;
+    background-color: rgb(52, 71, 128);
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left:220px;
+    padding: 7px;
+    grid-template-columns: 400px 100px 400px 20px 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+}
+#campos{
+color: white;
+
+}
+
+.metodoPago label {
+    display: inline-block;
+    width: auto;
+    margin-right: 10px;
+}
+
+.metodoPago input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.tablaVenta{
+    overflow: auto;
+    height: 400px;
+    display: table;
+    border: solid 1px rgb(205, 207, 212);
+    border-radius: 10px;
+    align-items: center;
+    background-color: rgb(238, 239, 241);
+    /*background-color: rgb(202, 204, 210);*/
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-left:220px;
+    padding: 7px;
+    gap: 5px;
+    padding: 7px;
+    border: solid 1px rgb(51, 57, 144);
+}
+.tablaVendidos{
+
+    display: flex;
+    order: 0;
+
+}
+
+
+.btnAgregarVentas:hover{
+    color: black;
+    background-color: #06aaeb;
+    border: 1px solid black;       
+}
+
+.saleCalculations{
+    
+    border: solid 1px rgb(133, 78, 78);
+    gap: 10px;
+    display: flow-root;
+    border: solid 1px rgb(47, 56, 89);
+    border-radius: 10px;
+    align-items: center;
+    background-color: #344780;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-left:220px;
+    padding: 7px;
+    position: relative;
+    
+}
+
+.botonesVenta{
+    background-color: #344780;
+    border-radius: 10px;
+    border: solid 1px rgb(47, 56, 89);
+    gap: 10px;
+    display: flow-root;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-left:220px;
+    padding: 7px;
+    position: relative;
+    
+}
+
+.total-texto {
+    color: white;
+  }
+  
+
+.containerV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 800px;
+    height: 200px;
+    background-color: #ddd;
+    margin: 0 auto;
+    height: 800px;
+    width: 1900px;
+}
+
+.headerVentas{
+    padding: 7px;
+    border: solid 1px black;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.about{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tablaVenta{
+    padding: 7px;
+    border: solid 1px black;
+    overflow: auto;
+}
+
+.arti{
+    padding: 7px;
+    display: grid;
+    grid-template-columns: 1fr 85px 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    gap: 5px;
+    align-items: center;
+    margin-top: -35px;
+}
+
+.info{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.datosVenta{
+    display: grid;
+    gap: 3px;
+}
+
+.botonCli{
+    margin-left: 5px;
+    background-color: #00A652;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.botonCli:hover{
+    border: 1px solid rgb(22, 117, 6);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #2b800e;
+}
+
+
+
+
+.btnVentaGuardar{
+    margin-right: 50px;
+    width: 170px;
+    
+    font-size:larger;
+    border: none;
+    color: white;
+    height: 65px;
+    background-color: #27854e;
+    box-shadow: 0px 5px 0px 0px #1c3c29;
+    
+}
+
+.btnVentaCancelar{
+    margin-right: 50px;
+    height: 65px;
+    width: 170px;
+    
+    font-size: larger;
+    
+    color: black; 
+    border: 2px solid#cd2b19;
+    background-color: #cd2b19;
+    box-shadow: 0px 5px 0px 0px #781f15;
+
+}
+.btnVentaGuardar:hover{
+    background-color: #36a765;
+}
+
+.btnVentaCancelar:hover {
+    background-color: #f34531;
+}
+
+.btn1 {
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 20px;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn1:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+  }
+  
+
+
+

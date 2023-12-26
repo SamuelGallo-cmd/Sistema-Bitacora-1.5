@@ -1,0 +1,63 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.pricng{
+    background: #F6F9FC;
+    padding: 80px;
+}
+
+.sd{
+    color: blue;
+    font-size: 20px;
+}
+.colom{
+    position: relative;
+}
+
+
+
+/* MODULOS DE AGREGAR Y EDITAR*/
+.modalHeaderColor{
+    background: #43cea2;  
+    background: -webkit-linear-gradient(to right, #27296d, #8dc6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #27296d, #8dc6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+.modalC{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+/**********************************************************************/
+
+  .input-group .form-control {
+    margin-right: 10px;
+  }
+
+  .input-group .input-group-prepend {
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  .form-control {
+    flex: 1;
+    width: 0%;
+  }
+
+
+  #success_message{ display: none;}
+
+  @media (max-width: 767px) { /* Ocultar en pantallas de ancho menor o igual a 767px (dispositivos móviles) */
+    label[for="AggUser"] {
+        display: none;
+    }
+}    @media (min-width: 768px) { /* Establecer el margen solo en pantallas más grandes que 767px (no en móviles) */
+    #passwordUser {
+        margin-left: 10px;
+    }
+}

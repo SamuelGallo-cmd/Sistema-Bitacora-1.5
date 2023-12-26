@@ -1,0 +1,25 @@
+.btn-group button.btn.btn-danger.btnDelete , button.btn-warning.btnUpdate, button.btn-info{
+    margin: 3px;
+    padding: 0px;
+    display: block;
+}
+
+
+td {
+    width: auto;
+    width: min-content;
+}
+
+.mProducto{
+    position: fixed;
+    width: 1600px;
+    margin-left: -500px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+    border-color: rgba(118, 118, 118, 0.3);
+    color: -internal-light-dark(graytext, rgb(170, 170, 170));
+}
+
